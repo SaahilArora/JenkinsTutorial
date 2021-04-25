@@ -7,5 +7,5 @@ import org.springframework.web.bind.annotation.RestController;
 public class JenkinsController {
 
     @GetMapping("/getDetails")
-    public String getUserName(){return "Hi User, I'm Alive live streaming started on Dev and Prod.";}
+    public String getUserName(){return "Hi User, I'm Alive live streaming started on Dev .";}
 }
